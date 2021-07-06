@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1{    margin-top: 3rem;
+
+    font-size: 4rem;
+    margin-left: 7rem;
+
+}
+
+.container{
+    margin-top: 6rem;
+    width: 50%;
+    height: 35rem;
+backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-right: 1px solid rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+
+}
+
+header{
+    color: #fefefe;
+ font-family: 'Lobster', cursive;
+    
+}
+
+#button{
+  
+    margin-top: 0rem;
+    margin-left: 14rem !important;
+    background: #0e3a67;
+    border-radius: 35px;
+    width: 16rem;
+    height: 4rem;
+   
+}
+
+.abc{width: 34rem;
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
+.card{text-align: center;
+    color: #625656;
+    background: black;
+    font-size: 1.6rem;
+    width: 31rem;
+    margin-top: 4rem;
+    height: 13rem;
+    font-weight: 600;
+}
+
+
+
+
+
+
+@media screen and (max-width:425px) {
+    
+.container{
+  width: 50% !important;
+height: 68vh !important;}
+
+.abc{
+    width: 14rem;
+    ;
+}
+#button{font-size: 1rem;
+    width: 7rem !important;
+    margin-top: -1rem !important;
+    height: 2rem !important;
+    margin-left: 0rem !important;
+}
+h1{    margin-left: 2rem !important;
+    font-size: 1rem !important;
+   
+
+    }
+    .card{width: 12rem !important;
+        font-size: 1rem !important;
+        height: 12rem !important;
+    }
+}
